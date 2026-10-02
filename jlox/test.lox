@@ -1,5 +1,13 @@
-fun sayHi(first, last) {
-  print "Hi, " + first + " " + last + "!";
+fun whichFn(fn) {
+  print fn;
 }
 
-sayHi("Dear", "Reader");
+whichFn(fun (b) {
+ print b;
+});
+
+fun named(a) { print a; }
+whichFn(named);
+//
+// <fn>
+// <fn named>
