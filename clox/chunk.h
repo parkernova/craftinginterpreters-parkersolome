@@ -6,6 +6,7 @@
 
 typedef enum {
     OP_CONSTANT,
+    OP_DUP,
     OP_NIL,
     OP_TRUE,
     OP_FALSE,
@@ -28,6 +29,7 @@ typedef enum {
     OP_JUMP,
     OP_JUMP_IF_FALSE,
     OP_LOOP,
+    OP_CALL,
     OP_RETURN,
 } OpCode;
 
